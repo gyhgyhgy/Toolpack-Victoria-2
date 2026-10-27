@@ -1,0 +1,316 @@
+guiTypes = {
+	windowType = {
+		name = "toolpack_entry"
+		backGround = ""
+		position = { x = 385 y = 220 }
+		size = { x = 144 y = 34 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+		verticalBorder = ""
+		fullScreen = no
+		Orientation = "UPPER_LEFT"
+
+		guiButtonType = {
+			name = "toolpack_open"
+			position = { x = 0 y = 0 }
+			quadTextureSprite = "GFX_button_standard_144"
+			buttonText = "TOOLPACK"
+			buttonFont = "vic_18_black"
+		}
+	}
+
+	windowType = {
+		name = "toolpack_window"
+		backGround = ""
+		position = { x = 385 y = 260 }
+		size = { x = 392 y = 460 }
+		moveable = 1
+		dontRender = ""
+		horizontalBorder = ""
+		verticalBorder = ""
+		fullScreen = no
+		Orientation = "UPPER_LEFT"
+
+		iconType = {
+			name = "toolpack_bg"
+			spriteType = "GFX_province_recruit_bg"
+			position = { x = 0 y = 0 }
+		}
+
+		guiButtonType = {
+			name = "toolpack_close"
+			quadTextureSprite = "GFX_main_close_button"
+			position = { x = 345 y = 14 }
+			Orientation = "UPPER_LEFT"
+			shortcut = "ESCAPE"
+		}
+
+		instantTextBoxType = {
+			name = "toolpack_title"
+			position = { x = 10 y = 14 }
+			font = "vic_22"
+			text = "VICTORIA 2 TOOLPACK"
+			maxWidth = 372
+			maxHeight = 24
+			format = centre
+		}
+
+		instantTextBoxType = {
+			name = "toolpack_diplo_label"
+			position = { x = 25 y = 38 }
+			font = "vic_18_black"
+			text = "-- DIPLOMACY --"
+			maxWidth = 340
+			maxHeight = 18
+			format = centre
+		}
+
+		instantTextBoxType = {
+			name = "toolpack_sphere_label"
+			position = { x = 25 y = 56 }
+			font = "Main_14_black"
+			text = "Sphere Country Tag:"
+			maxWidth = 200
+			maxHeight = 16
+			format = left
+		}
+
+		editBoxType = {
+			name = "toolpack_sphere_tag"
+			position = { x = 25 y = 72 }
+			textureFile = "gfx\\interface\\small_tiles_dialog.dds"
+			font = "vic_18"
+			borderSize = { x = 8 y = 4 }
+			size = { x = 68 y = 28 }
+			text = ""
+			orientation = "UPPER_LEFT"
+		}
+
+		guiButtonType = {
+			name = "toolpack_pick_sphere"
+			position = { x = 100 y = 72 }
+			quadTextureSprite = "GFX_button_thin_84"
+			buttonText = "Pick"
+			buttonFont = "vic_18_black"
+		}
+
+		guiButtonType = {
+			name = "toolpack_add_sphere"
+			position = { x = 192 y = 72 }
+			quadTextureSprite = "GFX_button_thin_84"
+			buttonText = "Add"
+			buttonFont = "vic_18_black"
+		}
+
+		guiButtonType = {
+			name = "toolpack_rem_sphere"
+			position = { x = 284 y = 72 }
+			quadTextureSprite = "GFX_button_thin_84"
+			buttonText = "Free"
+			buttonFont = "vic_18_black"
+		}
+
+		instantTextBoxType = {
+			name = "toolpack_vassal_label"
+			position = { x = 25 y = 104 }
+			font = "Main_14_black"
+			text = "Vassal Country Tag:"
+			maxWidth = 200
+			maxHeight = 16
+			format = left
+		}
+
+		editBoxType = {
+			name = "toolpack_vassal_tag"
+			position = { x = 25 y = 120 }
+			textureFile = "gfx\\interface\\small_tiles_dialog.dds"
+			font = "vic_18"
+			borderSize = { x = 8 y = 4 }
+			size = { x = 68 y = 28 }
+			text = ""
+			orientation = "UPPER_LEFT"
+		}
+
+		guiButtonType = {
+			name = "toolpack_pick_vassal"
+			position = { x = 100 y = 120 }
+			quadTextureSprite = "GFX_button_thin_84"
+			buttonText = "Pick"
+			buttonFont = "vic_18_black"
+		}
+
+		guiButtonType = {
+			name = "toolpack_make_vassal"
+			position = { x = 192 y = 120 }
+			quadTextureSprite = "GFX_button_thin_84"
+			buttonText = "Vassal"
+			buttonFont = "vic_18_black"
+		}
+
+		guiButtonType = {
+			name = "toolpack_rem_vassal"
+			position = { x = 284 y = 120 }
+			quadTextureSprite = "GFX_button_thin_84"
+			buttonText = "Free"
+			buttonFont = "vic_18_black"
+		}
+
+		instantTextBoxType = {
+			name = "toolpack_prov_label"
+			position = { x = 25 y = 154 }
+			font = "vic_18_black"
+			text = "-- PROVINCE ACTIONS --"
+			maxWidth = 340
+			maxHeight = 18
+			format = centre
+		}
+
+		instantTextBoxType = {
+			name = "toolpack_owner_label"
+			position = { x = 25 y = 168 }
+			font = "Main_14_black"
+			text = "Target Owner Tag:"
+			maxWidth = 200
+			maxHeight = 16
+			format = left
+		}
+
+		editBoxType = {
+			name = "toolpack_tag"
+			position = { x = 25 y = 184 }
+			textureFile = "gfx\\interface\\small_tiles_dialog.dds"
+			font = "vic_18"
+			borderSize = { x = 8 y = 4 }
+			size = { x = 68 y = 28 }
+			text = ""
+			orientation = "UPPER_LEFT"
+		}
+
+		guiButtonType = {
+			name = "toolpack_pick_tag"
+			position = { x = 100 y = 184 }
+			quadTextureSprite = "GFX_button_thin_84"
+			buttonText = "Pick"
+			buttonFont = "vic_18_black"
+		}
+
+		guiButtonType = {
+			name = "toolpack_annex"
+			position = { x = 192 y = 184 }
+			quadTextureSprite = "GFX_button_thin_160"
+			buttonText = "Transfer Prov"
+			buttonFont = "vic_18_black"
+		}
+
+		guiButtonType = {
+			name = "toolpack_transfer_region"
+			position = { x = 25 y = 214 }
+			quadTextureSprite = "GFX_button_thin_160"
+			buttonText = "Transfer Region"
+			buttonFont = "vic_18_black"
+		}
+
+		guiButtonType = {
+			name = "toolpack_annex_country"
+			position = { x = 205 y = 214 }
+			quadTextureSprite = "GFX_button_thin_160"
+			buttonText = "Annex Country"
+			buttonFont = "vic_18_black"
+		}
+
+		guiButtonType = {
+			name = "toolpack_occupy"
+			position = { x = 115 y = 244 }
+			quadTextureSprite = "GFX_button_thin_160"
+			buttonText = "Occupy Province"
+			buttonFont = "vic_18_black"
+		}
+
+		instantTextBoxType = {
+			name = "toolpack_army_label"
+			position = { x = 25 y = 276 }
+			font = "vic_18_black"
+			text = "-- SPAWN ARMY IN PROV --"
+			maxWidth = 340
+			maxHeight = 18
+			format = centre
+		}
+
+		guiButtonType = {
+			name = "toolpack_spawn_inf"
+			position = { x = 25 y = 294 }
+			quadTextureSprite = "GFX_button_thin_160"
+			buttonText = "+3 Infantry"
+			buttonFont = "vic_18_black"
+		}
+
+		guiButtonType = {
+			name = "toolpack_spawn_cav"
+			position = { x = 205 y = 294 }
+			quadTextureSprite = "GFX_button_thin_160"
+			buttonText = "+3 Cavalry"
+			buttonFont = "vic_18_black"
+		}
+
+		guiButtonType = {
+			name = "toolpack_spawn_art"
+			position = { x = 25 y = 322 }
+			quadTextureSprite = "GFX_button_thin_160"
+			buttonText = "+3 Artillery"
+			buttonFont = "vic_18_black"
+		}
+
+		guiButtonType = {
+			name = "toolpack_spawn_tank"
+			position = { x = 205 y = 322 }
+			quadTextureSprite = "GFX_button_thin_160"
+			buttonText = "+3 Tanks"
+			buttonFont = "vic_18_black"
+		}
+
+		instantTextBoxType = {
+			name = "toolpack_res_label"
+			position = { x = 25 y = 352 }
+			font = "vic_18_black"
+			text = "-- ECONOMY & NATION --"
+			maxWidth = 340
+			maxHeight = 18
+			format = centre
+		}
+
+		guiButtonType = {
+			name = "toolpack_money"
+			position = { x = 25 y = 370 }
+			quadTextureSprite = "GFX_button_thin_160"
+			buttonText = "+100k Money"
+			buttonFont = "vic_18_black"
+		}
+
+		guiButtonType = {
+			name = "toolpack_goods"
+			position = { x = 205 y = 370 }
+			quadTextureSprite = "GFX_button_thin_160"
+			buttonText = "+1k Goods"
+			buttonFont = "vic_18_black"
+		}
+
+		guiButtonType = {
+			name = "toolpack_leadership"
+			position = { x = 115 y = 398 }
+			quadTextureSprite = "GFX_button_standard_144"
+			buttonText = "+500 Leadership"
+			buttonFont = "vic_18_black"
+		}
+
+		instantTextBoxType = {
+			name = "toolpack_status"
+			position = { x = 10 y = 432 }
+			font = "Main_14_black"
+			text = "Victoria 2 Toolpack (C++ Mod)"
+			maxWidth = 372
+			maxHeight = 16
+			format = centre
+		}
+	}
+}

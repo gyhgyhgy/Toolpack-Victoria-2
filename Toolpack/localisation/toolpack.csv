@@ -1,0 +1,15 @@
+toolpack_open_menu_title;*** [ TOOLPACK: OPEN MENU ] ***;*** [ TOOLPACK: OPEN MENU ] ***;*** [ TOOLPACK: OPEN MENU ] ***;;*** [ TOOLPACK: OPEN MENU ] ***;;;;;;;;;x
+toolpack_open_menu_desc;Open the interactive Victoria 2 Toolpack Menu.;Open the interactive Victoria 2 Toolpack Menu.;Open the interactive Victoria 2 Toolpack Menu.;;Open the interactive Victoria 2 Toolpack Menu.;;;;;;;;;x
+toolpack_quick_money_title;[ TOOLPACK: +100,000 Cash ];[ TOOLPACK: +100,000 Cash ];[ TOOLPACK: +100,000 Cash ];;[ TOOLPACK: +100,000 Cash ];;;;;;;;;x
+toolpack_quick_money_desc;Instantly add 100,000 pounds to your national treasury.;Instantly add 100,000 pounds to your national treasury.;Instantly add 100,000 pounds to your national treasury.;;Instantly add 100,000 pounds to your national treasury.;;;;;;;;;x
+toolpack_quick_army_title;[ TOOLPACK: Spawn Army Stack in Capital ];[ TOOLPACK: Spawn Army Stack in Capital ];[ TOOLPACK: Spawn Army Stack in Capital ];;[ TOOLPACK: Spawn Army Stack in Capital ];;;;;;;;;x
+toolpack_quick_army_desc;Instantly spawn a ready 24,000-man army corps (Infantry + Cav + Artillery) in your capital.;Instantly spawn a ready 24,000-man army corps (Infantry + Cav + Artillery) in your capital.;Instantly spawn a ready 24,000-man army corps (Infantry + Cav + Artillery) in your capital.;;Instantly spawn a ready 24,000-man army corps (Infantry + Cav + Artillery) in your capital.;;;;;;;;;x
+toolpack_quick_research_title;[ TOOLPACK: +1000 Research Points ];[ TOOLPACK: +1000 Research Points ];[ TOOLPACK: +1000 Research Points ];;[ TOOLPACK: +1000 Research Points ];;;;;;;;;x
+toolpack_quick_research_desc;Instantly add 1000 research points to quickly unlock technologies.;Instantly add 1000 research points to quickly unlock technologies.;Instantly add 1000 research points to quickly unlock technologies.;;Instantly add 1000 research points to quickly unlock technologies.;;;;;;;;;x
+EVTNAME_TOOLPACK;VICTORIA 2 TOOLPACK;VICTORIA 2 TOOLPACK;VICTORIA 2 TOOLPACK;;VICTORIA 2 TOOLPACK;;;;;;;;;x
+EVTDESC_TOOLPACK;Welcome to Victoria 2 Toolpack! Select an action below to instantly modify your country.;Welcome to Victoria 2 Toolpack! Select an action below to instantly modify your country.;Welcome to Victoria 2 Toolpack! Select an action below to instantly modify your country.;;Welcome to Victoria 2 Toolpack! Select an action below to instantly modify your country.;;;;;;;;;x
+EVTOPTA_TOOLPACK_MONEY;[ +100,000 Cash ];[ +100,000 Cash ];[ +100,000 Cash ];;[ +100,000 Cash ];;;;;;;;;x
+EVTOPTB_TOOLPACK_ARMY;[ Spawn 24k Army in Capital ];[ Spawn 24k Army in Capital ];[ Spawn 24k Army in Capital ];;[ Spawn 24k Army in Capital ];;;;;;;;;x
+EVTOPTC_TOOLPACK_RESEARCH;[ +5000 Research Points ];[ +5000 Research Points ];[ +5000 Research Points ];;[ +5000 Research Points ];;;;;;;;;x
+EVTOPTD_TOOLPACK_PRESTIGE;[ +50 Prestige ];[ +50 Prestige ];[ +50 Prestige ];;[ +50 Prestige ];;;;;;;;;x
+EVTOPTE_TOOLPACK_CLOSE;[ Close Toolpack ];[ Close Toolpack ];[ Close Toolpack ];;[ Close Toolpack ];;;;;;;;;x
